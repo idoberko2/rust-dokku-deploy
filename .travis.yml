@@ -1,0 +1,14 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_fde3387d499a_key -iv $encrypted_fde3387d499a_iv
+  -in dokku-deploy.key.enc -out dokku-deploy.key -d
+- openssl aes-256-cbc -K $encrypted_8457045bb8d3_key -iv $encrypted_8457045bb8d3_iv
+  -in dokku-deploy.key.enc -out dokku-deploy.key -d
+  
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 .travis/dokku-deploy.key
+  - ssh-add .travis/dokku-deploy.key
+  - ssh-keyscan 159.65.19.74 >> ~/.ssh/known_hosts
+  - git remote add deploy dokku@idoberko2.com:rust-hello-world
+  - git config --global push.default simple
+  - git push deploy master
