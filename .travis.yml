@@ -2,14 +2,14 @@ language: rust
 rust:
 - nightly
 env:
-  - secure: "W7+SUSlYnYe3P1WjCds2ewiz1hWJI5JbNT/uz1g5xX+Vrrtx1nsFi5u0cDdpBMyLbUN3dtic07prNXhgAHVI6IFwY3TUYHZOVeNz02JhdKM6zLsSKhaYKtISw8+YpqrifB3PWYBldgKUyyF7UcNRqay2kx3Ds7NC6bXC/vNiFADYN7OUjTVJnlbhVDau5QgoA6Oj48etnBxMliRcT4tzwdHys1yiUkVpJqZAVukd3ufl6vwPW+KSYcPyBfFhxKSvamQT+AKqgYz4p1KXd3wh2TXVMlKi6CkfLG7uKhI1iNkwbbdQUZLxECbuhT5rI4eVcLS+qaCvrYKm3BVA2yhLWOq9WKrlk4aSuQaAmLI8R0ydNAJMzlehdmu//5tqIWT4fS16wqL3Jj7ifmL4zDaW/GtKwmNFQrtc1eMQ/4ZKZZknFNL0hXQvhF5PPqykUEvXhlZIwYY/8e5oVIQd0q2PzVU9rk5pmd/Z7kSwhMbJmbYknUWLzu95UMcjVNZ3bEVRk307iVdG5uKwIaYnq6sUwMYI3nGaYIGgWoQTNH7/PpNx3CTOrrlFu7zQvf1qu6Z6oK+yALul4E6R7U6t82sxkv2ggVqKZwXIhOdoBx9fNgzHu/kj1HoWQUqYcyoOZ5T21cMhYgGnWJkQglVfZTdCeHNEso+CxElMgkTq+LYiAcU="
-  - secure: "ZrR3SeH0GV70DR8pimzqppIqp4R2kLWoBC19XgUli2MgZG8M63PNFQXL0nwUvyY0IXKCaiJlFPc5GxLZbCPcAmMBH+S8OzTnFG7cgCw4/5kcsU1qXGXiZyftiM4Bux8uY4mfj2hHf8+VQGe/c24hqyXHmzf6Pol0VHAIehPORdTseP393kgqGm/qManIMcQG7+lnILftp+5oXbYUYp+FjED5EoTcHHyXvz9W1i7ix45ZPwrdkLXXpIwUpZsoZwFuHVN6UPG+2FlX6AjlWTeZ/D4kZsRN9mBZ9IYKKamk9rOqulwOclkLAY27oUga9oKXVumFa0xhYuxDca9RHsBLtNiODpUVs+QvSKOVzFYyfshhSWrZyKqcj74WQ62oPROQTIMD1XZYwmyk7MaAixx8KS7AFvf4gt7ik76ftp2uIZmhwViKS5ypu8XmoZjHh6FH7JRdE22Axag3kTwwZHeZS3PBdnk0ybnsDtylWCQ8YZq5MFfBom/AxdMgOGnoD5wYuML4lDjkxV3citaxmDWOSX1AEDfFrfAXzJyON0+OEyyh7dsQ10KQJfnxkJG/+MaJjstYWxtW2rv6Y3sRnjMAf1w/Bq/NF4tWC2u+RAPu/Jf7rCNryJKR5psy/pCIYBL0L93bGrgUyS/gsjpURrsVvFlUYlh1C1lVDGE5jMb4Hvg="
+- secure: W7+SUSlYnYe3P1WjCds2ewiz1hWJI5JbNT/uz1g5xX+Vrrtx1nsFi5u0cDdpBMyLbUN3dtic07prNXhgAHVI6IFwY3TUYHZOVeNz02JhdKM6zLsSKhaYKtISw8+YpqrifB3PWYBldgKUyyF7UcNRqay2kx3Ds7NC6bXC/vNiFADYN7OUjTVJnlbhVDau5QgoA6Oj48etnBxMliRcT4tzwdHys1yiUkVpJqZAVukd3ufl6vwPW+KSYcPyBfFhxKSvamQT+AKqgYz4p1KXd3wh2TXVMlKi6CkfLG7uKhI1iNkwbbdQUZLxECbuhT5rI4eVcLS+qaCvrYKm3BVA2yhLWOq9WKrlk4aSuQaAmLI8R0ydNAJMzlehdmu//5tqIWT4fS16wqL3Jj7ifmL4zDaW/GtKwmNFQrtc1eMQ/4ZKZZknFNL0hXQvhF5PPqykUEvXhlZIwYY/8e5oVIQd0q2PzVU9rk5pmd/Z7kSwhMbJmbYknUWLzu95UMcjVNZ3bEVRk307iVdG5uKwIaYnq6sUwMYI3nGaYIGgWoQTNH7/PpNx3CTOrrlFu7zQvf1qu6Z6oK+yALul4E6R7U6t82sxkv2ggVqKZwXIhOdoBx9fNgzHu/kj1HoWQUqYcyoOZ5T21cMhYgGnWJkQglVfZTdCeHNEso+CxElMgkTq+LYiAcU=
+- secure: ZrR3SeH0GV70DR8pimzqppIqp4R2kLWoBC19XgUli2MgZG8M63PNFQXL0nwUvyY0IXKCaiJlFPc5GxLZbCPcAmMBH+S8OzTnFG7cgCw4/5kcsU1qXGXiZyftiM4Bux8uY4mfj2hHf8+VQGe/c24hqyXHmzf6Pol0VHAIehPORdTseP393kgqGm/qManIMcQG7+lnILftp+5oXbYUYp+FjED5EoTcHHyXvz9W1i7ix45ZPwrdkLXXpIwUpZsoZwFuHVN6UPG+2FlX6AjlWTeZ/D4kZsRN9mBZ9IYKKamk9rOqulwOclkLAY27oUga9oKXVumFa0xhYuxDca9RHsBLtNiODpUVs+QvSKOVzFYyfshhSWrZyKqcj74WQ62oPROQTIMD1XZYwmyk7MaAixx8KS7AFvf4gt7ik76ftp2uIZmhwViKS5ypu8XmoZjHh6FH7JRdE22Axag3kTwwZHeZS3PBdnk0ybnsDtylWCQ8YZq5MFfBom/AxdMgOGnoD5wYuML4lDjkxV3citaxmDWOSX1AEDfFrfAXzJyON0+OEyyh7dsQ10KQJfnxkJG/+MaJjstYWxtW2rv6Y3sRnjMAf1w/Bq/NF4tWC2u+RAPu/Jf7rCNryJKR5psy/pCIYBL0L93bGrgUyS/gsjpURrsVvFlUYlh1C1lVDGE5jMb4Hvg=
 before_install:
-  - openssl aes-256-cbc -K $encrypted_56c9f8f9c907_key -iv $encrypted_56c9f8f9c907_iv
-    -in .travis/dokku-deploy.key.enc -out .travis/dokku-deploy.key -d
-  - chmod +x .travis/deploy.sh
+- openssl aes-256-cbc -K $encrypted_56c9f8f9c907_key -iv $encrypted_56c9f8f9c907_iv
+  -in .travis/dokku-deploy.key.enc -out .travis/dokku-deploy.key -d
+- chmod +x .travis/deploy.sh
 after_success:
-  - >
-    if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
-      bash .travis/deploy.sh;
-    fi;
+- |
+  if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+    bash .travis/deploy.sh;
+  fi;
